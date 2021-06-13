@@ -30,4 +30,4 @@ while True:
             cv2.destroyAllWindows()
 
 
-c.close()
+conn.close()
