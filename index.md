@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Summer Program Task 3
 
-You can use the [editor on GitHub](https://github.com/AishwaryaBirla/summerprogramtask3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+📌 Created Live Streaming Video Chat App without voice using cv2 module of Python: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Successfully completed the video streaming app without voice using python.
 
-### Markdown
+### Libraries used- 
+#### 1. opven cv:
+Download this library using $pip install opencv-python
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
+		
+This library helped in reading (capturing) and displaying the data send over the network. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 2. Socket:
+Socket programming is used to connect 2 nodes on a network to establish communication between them. At a particular time, One socket(node) listens on a port, usually a Server socket, while other socket reaches out to form a connection,  usually a client. 
 
-```markdown
-Syntax highlighted code block
+Socket programming is used whenever a server client architecture is needed.
 
-# Header 1
-## Header 2
-### Header 3
+Here we imported socket library and passed two parameters, AF_INET which refers to address family of ipv4 and SOCK_STREAM  which signifies TCP oriented protocol.
 
-- Bulleted
-- List
+#### 3. Pickel:
+The pickle module implements binary protocols for serializing and de-serializing a Python object structure. “Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream (from a binary file or bytes-like object) is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” or “flattening”;
 
-1. Numbered
-2. List
+We used pickle.dump() and pickle.load() to pass and retrieve data.
 
-**Bold** and _Italic_ and `Code` text
+Using all these libraries, Video streaming program was created successfully!
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AishwaryaBirla/summerprogramtask3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![demo img](/img1.png)
