@@ -8,6 +8,7 @@ First find your IP using ipconfig command in cmd. Use the Wifi ip if you are con
 Edit the ip in the programs. 
 Then execute server.py program first the client.py 
 You will notice that the video streaming has started. press Q when done. 
+In case of error- "request denied by the server" : check you IP address used or try changing the port
 
 
 
