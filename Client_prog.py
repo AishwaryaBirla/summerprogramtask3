@@ -1,6 +1,7 @@
 import cv2
 import socket
 import pickle
+import struct
 
 # cap=cv2.VideoCapture(0)
 clientsocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
